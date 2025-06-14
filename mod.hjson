@@ -1,0 +1,7 @@
+name: seton
+displayName: Seton mod
+author: Raviravirego76466
+description: This is a useless description.
+version: "1.0"
+minGameVersion: "149"
+dependencies: [ ]
