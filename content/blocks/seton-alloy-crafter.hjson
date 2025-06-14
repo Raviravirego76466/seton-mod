@@ -1,0 +1,31 @@
+name: Morphite Creator
+type: GenericCrafter
+squareSprite: false
+size: 3
+category: crafting
+researchCostMultiplier: .25
+craftTime: 15
+requirements: [
+surge-alloy/20
+coal/10
+]
+consumes: {
+items: [
+coal/10
+surge-alloy/20]
+}
+outputItem: seton-alloy/2
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawBlurSpin
+      suffix: -rotator
+      rotateSpeed: 10
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+research: surge-alloy
